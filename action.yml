@@ -2,10 +2,9 @@ name: 'Multiple Service Release Changelog Builder'
 description: 'A GitHub Action for building release notes/ changelogs from various repositories.'
 author: 'Liam MacPherson'
 inputs:
-  milliseconds: # change this
+  repositories:
     required: true
-    description: 'input description here'
-    default: 'default value if applicable'
+    description: 'A list of repositories to build release notes for.'
 runs:
   using: 'node16'
   main: 'dist/index.js'
