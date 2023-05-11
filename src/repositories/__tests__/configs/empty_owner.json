@@ -1,0 +1,10 @@
+{
+  "owner": "",
+  "repositories": [
+    {
+      "name": "TestRepo",
+      "from": "0.0.0",
+      "to": "1.0.0"
+    }
+  ]
+}
